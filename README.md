@@ -5,7 +5,7 @@ NOTE
 --
 For older browsers you need a promise polyfill. [Try Bluebird](http://bluebirdjs.com/docs/getting-started.html)
 
-This is for JSON based RESTFull APIs only and will automatically parse your response and payload into JSON for transport.
+This is for JSON based RESTFul APIs only and will automatically parse your response and payload into JSON for transport.
 
 Statuses between 200 and 299 are `resolved` (`.then()`)
 Statuses that are not between 200 and 299 are `rejected` (`.catch()`)
@@ -13,7 +13,7 @@ Statuses that are not between 200 and 299 are `rejected` (`.catch()`)
 Usage
 --
 ```js
-RESTful("https://api.yourthing.com/login", {
+httpJSON("https://api.yourthing.com/login", {
     method: "POST",
     headers: {
         authorization: "I2WFQJJI594EBMZ3U9E4YH1JT24G54",
