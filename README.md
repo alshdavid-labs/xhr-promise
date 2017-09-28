@@ -1,8 +1,18 @@
 # XHR Promise Wrapper
 
-## Usage
 
-```
+NOTE
+--
+For older browsers you need a promise polyfill. [https://www.npmjs.com/package/promise-polyfill](https://www.npmjs.com/package/promise-polyfill)
+
+This is for JSON based RESTFull APIs only and will automatically parse your response and payload into JSON for transport.
+
+Statuses between 200 and 299 are `resolved` (`.then()`)
+Statuses that are not between 200 and 299 are `rejected` (`.catch()`)
+
+Usage
+--
+```js
 xhr("https://api.yourthing.com/login", {
 	method: "POST",
   headers: {
