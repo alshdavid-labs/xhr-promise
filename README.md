@@ -26,7 +26,7 @@ httpJSON("https://api.yourthing.com/login", {
 .catch(json => console.log(json))
 ```
 
-Alternate Usage
+V2 Usage
 --
 ```js
 xhr("https://api.yourthing.com/login")
