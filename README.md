@@ -12,7 +12,7 @@ Statuses between 200 and 299 are `resolved` (`.then()`)<br>Statuses that are not
 Usage
 --
 ```js
-httpJSON("https://api.yourthing.com/login", {
+xhr("https://api.yourthing.com/login", {
     method: "POST",
     headers: {
         api_key: "I2WFQJJI594EBMZ3U9E4YH1JT24G54"
@@ -29,7 +29,7 @@ httpJSON("https://api.yourthing.com/login", {
 V2 Usage
 --
 ```js
-xhr("https://api.yourthing.com/login")
+xhr2("https://api.yourthing.com/login")
     .post()
     .json()
     .headers({
