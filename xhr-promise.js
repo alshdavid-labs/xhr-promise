@@ -1,4 +1,4 @@
-function httpJSON(url, options) {
+function xhr(url, options) {
     return new Promise(function(response, reject) {
         let xmlHttp = new XMLHttpRequest()
         xmlHttp.onreadystatechange = function() {
@@ -30,7 +30,7 @@ function httpJSON(url, options) {
 }
 
 
-function xhr(url) {
+function xhr2(url) {
 
 	this.options = {
 	  url: url,
