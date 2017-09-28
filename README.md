@@ -3,7 +3,7 @@
 
 NOTE
 --
-For older browsers you need a promise polyfill. [https://www.npmjs.com/package/promise-polyfill](https://www.npmjs.com/package/promise-polyfill)
+For older browsers you need a promise polyfill. [Try Bluebird](http://bluebirdjs.com/docs/getting-started.html)
 
 This is for JSON based RESTFull APIs only and will automatically parse your response and payload into JSON for transport.
 
