@@ -1,4 +1,4 @@
-function xhr(url, options) {
+function httpJSON(url, options) {
     return new Promise(function(response, reject) {
         let xmlHttp = new XMLHttpRequest()
         xmlHttp.onreadystatechange = function() {
