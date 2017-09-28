@@ -1,4 +1,4 @@
-function httpJSON(url, options) {
+function REST(url, options) {
     return new Promise(function(response, reject) {
         let xmlHttp = new XMLHttpRequest()
         xmlHttp.onreadystatechange = function() {
